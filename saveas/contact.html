@@ -80,9 +80,9 @@
                   
 <!-- partie centrale mobile -->        
         <div>
+
             
             <container class="bloccontact">
-
                 <div>
                     <h1 class="contact">
                         <img class="flechevertecontact" src="images/flecheverte1.png" alt="fleche verte">
@@ -90,52 +90,29 @@
                     </h1>
 
             <!-- Formulaire de renseignement -->
-                <form action="/contact.php" method="post">
-                    <ul>
-                        <li>
-                            <label for="name">
-                            <a>Nom :</a>
-                            </label>
-                            <input class="formulaire" type="text" id="name" name="name" required>
-                        </li>
-                            <li>
-                            <label for="societe">
-                            <a>Société :</a>
-                            </label> 
-                            <input class="formulaire" type="text" id="societe" name="societe" required/>
-                        </li>
-                        <li>
-                            <label for="telephone">
-                            <a>Téléphone :</a></label>
-                            <input class="formulaire" type="text" id="telephone" name="telephone" required/>
-                        </li>   
-                        <li>
-                            <label for="email">
-                            <a>Email :</a></label>
-                            <input class="formulaire" type="email" id="email" name="email" required/>
-                        </li>
-                        <li>
-                            <label for="message">
-                            <a>Message :</a>
-                            </label>
-                            <textarea class="formulaire" id="message" name="message" required></textarea>
-                        </li>
-                    </ul>
+            <form action="send_mail.php" method="post">
+                <label for="nom">Nom :</label>
+                <input class="formulaire" type="text" id="nom" name="nom" required><br><br>
+                
+                <label for="societe">Société :</label>
+                <input class="formulaire" type="text" id="societe" name="societe"><br><br>
+                
+                <label for="telephone">Téléphone :</label>
+                <input class="formulaire" type="tel" id="telephone" name="telephone"><br><br>
+                
+                <label for="email">Email :</label>
+                <input class="formulaire" type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message :</label>
+                <textarea  class="formulaire" id="message" name="message" required></textarea><br><br>
+                
+                <input type="submit" value="Envoyer">
+            </form>
 
-                <div class="bouton">
-                    <a class="bouton-envoyer">Envoyer</a>
-                </div>                    
                     
-
-                </form>
-
-
-
                 </div>
-
             </container>            
-            
-          
+                    
 <!-- section footer fond vert -->
                 <section class="sectionfooterfondvert">
                     <footer class="stylefooter">
@@ -149,8 +126,8 @@
                         </div>
                         
                         <div class="coordonnees">
-                            <p class="mentions">ff.rossignol@yahoo.fr - 86190 VOUILLE - ©rossignol - 2024 - Webdesign sur FIGMA - HTML & CSS sur Visual Studio Code</p>
-                        </div> 
+                            <p class="mentions">ff.rossignol@yahoo.fr - 86190 VOUILLE - ©rossignol - 2024 -&nbsp;Webdesign&nbsp;sur&nbsp;FIGMA - HTML & CSS sur Visual Studio Code</p>
+                        </div>
                     </footer>
 
                 </section>
