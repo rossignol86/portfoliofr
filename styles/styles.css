@@ -206,10 +206,11 @@ nav {
   display: flex;
   justify-content: space-around;
   padding: 15px;
+  margin: 0px 60px;
 }
 .navbar ul li a {
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 24px;
   color: #ffffff;
   text-decoration: none;
@@ -217,7 +218,7 @@ nav {
   padding: 10px;
 }
 .navbar ul li a:hover {
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
   background-color:#000000;
   font-size: 24px;
@@ -800,7 +801,7 @@ aside {
 /* Section NAVBAR */
 nav {
   background: #ffffff;
-  height: 230px;
+  height: 170px;
 }
 .navbar ul {
   width: 300px;
@@ -812,7 +813,7 @@ nav {
 .navbar ul li a {
   text-align: center;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 30px;
   color: #000000;
   text-decoration: none;
@@ -821,7 +822,7 @@ nav {
 }
 .navbar ul li a:hover {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 30px;
   color: #ffffff;
   background-color:#CDDC29;
@@ -1279,59 +1280,27 @@ resize: vertical;
 .sectionfooterfondvert {
   background-color: #CDDC29;
   width: 100%;
-  height: 100px;
+  height: 50px;
   display: flex;
   align-items: center;
   display: flex;
   justify-content: center;
   }
-.stylefooter{
-  width: 100%;
-  height: 80px;
-  background-color: #CDDC29;
-}
-.coordonnees {
+/* .coordonnees {
   color: #000000;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .mentions {
     display: inline-block;
     text-align: center;
     color: #000000;
     font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 18px;
-}
-
-/* style barre de navigation footer */
-.navbarfooter {
-    width: 100%;
-    height: 30px;
-    margin: 0 auto;
-    /* padding: 20px 0px 0px 0px; */
-}
-.navbarfooter ul {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-}
-.navbarfooter ul li a {
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 12px;
-    color: #000000;
-    text-decoration: none;
-    /* margin: 10px; */
-    width: 200px;
 }
 
 }
